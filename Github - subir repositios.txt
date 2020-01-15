@@ -1,0 +1,76 @@
+cd C:/Users/monica.moreno/Documents/Codigos_base_Herramienta/FASE_2/HerramientaAD
+git status
+git add -A
+git commit -am "Diseño de Filtros y asignación de total en indicadores"
+git push origin master
+
+cd C:/Users/monica.moreno/Documents/Codigos_base_Herramienta/HerramientaAD-master
+git status
+git add -A
+git commit -am "Diseño de Filtros y asignación de total en indicadores"
+git push origin master
+
+podadora craftsman 25cc modelo 316.711370
+ probando *Hola*
+
+____
+C:\Users\monica.moreno\Documents\Codigos_base_Herramienta
+
+sonar con RC
+sonar para pearl
+
+DEscripciones o ideas de las aplicaciones de lo que ví
+ejem: varmercado no usa SP - recomendamos negocio el uso de sP.
+
+
+___________________________________________________________________
+SQL 2017
+Visual Studio 
+
+Herramienta-de dependecias
+Lo que hace: es con el cdigo fuente, la herramienta busca objetos de base de datos (selects, etc.), WS o interfaces (Como estan declarados, urls), clases, funciones, metodos (Como se delcara una clase private, etc.).
+
+Desarrollada en C#, en MVC con .NET Framework 4.7.2, conexión a SQL SErver, debo tener un IIS 7.5
+
+3- Partes : DB, WS, CLase y fucniones.
+1.- El código entra en archivo zip.
+
+Resultados para el clente:
+**Diagramas
+**Detalle técnico.
+
+DIAGRAMAS
+Filtra "Area", "APP" y la opcion de las 3 partes, muestra el total usados y un diagrama
+
+DETAELLE TECNICO
+Filtra "Area", "APPLICACIÓN" Y grupo, muestarsolo una tabla
+
+*****EN LA FASE 2:
+Varsión 1.5
+Tablero general-
+Tablero APlicación (Lo del cuetioario o Due dilience)
+Tablero: BD (Gráficas, sale de la app)
+Tablero WS (Gráficas, sale de la app)
+Tablero CM (Gráficas, sale de la app)
+Analisis de Base de Datos (Parte de Equip DBA) Gráficas
+
+Desarrollo: diagrama entidad Relación de la BAse de Datos (Diagrama)
+
+_______
+Aprender el prceso de la app.
+Conecer el la parte de la versión 2 (Proponer cambios).
+__--
+
+Pricesso de carga y lectura...¿Como funcina?
+1.- Codigo se carga en un zip.
+2.- APP tiene una carpeta que se llama "TEMP"  "Codigo unzip" y "Códigoup"
+3.- "TEMP" en zim lo manda a --> "Cod unzip" que lo diivide en partes pequeñas de 1MB --> "Codigo UP" codigo
+  Nota: verifiscrq ue las carpetas esten limpias, ya que lagunas veces no funciona por que no se limpian ( "TEMP"  "Codigo unzip")
+4.- Lo manda al WS, hace 3 veces la lectura del código uno es para BD, WS y clases.
+5.- LA tabla caObjetoBD (Tablas, vistas, SP, triggers, etc.)
+6.- Busca en cada linea de codigo y donde encuntra algo con WS --> almacena en tab_Dependencias BD, Dependecia WS (WS y URL[Con IP]) y Dependecia CM (Clases).
+7.- En la tabla de DEPENDENCIAS DE BD, notas, un excel se debe eliminar lo que no corresponden a un objeto de BD.
+
+Parte de visible
+8.- SE basa en las tres tabals de depndecias.
+

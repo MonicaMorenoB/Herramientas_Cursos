@@ -1,0 +1,17 @@
+Primero se instal el node https://nodejs.org/es/download/ una vez descargado entramos a al cmd como admin
+e ingresamos node --version para ver la versión.
+
+posteriomente ingresamos lo siguiente para la instalación de Angular CLI
+	npm install -g @angular/cli
+	ng new pruebaAngular
+	cd pruebaAngular
+	ng serve -o
+	
+	ng --version	para ver la versión
+
+para crear un proyecto, utilizaremos VS code.
+desde CMD ingresamos "ng new Mi_proy_Angular"
+
+despues accdedo (mi-proy-angular1) (file:///C:/Windows/System32/mi-proy-angular1/)
+
+crear capera ng g c shared/header --spec=false

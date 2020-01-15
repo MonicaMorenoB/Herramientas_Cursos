@@ -1,0 +1,7 @@
+... o crea un nuevo repositorio en la línea de comando
+echo "# Prueba_Angular" >> README.md 
+git init 
+git add README.md 
+git commit -m "first commit" 
+git remote add origin https://github.com/MonicaMorenoB/Prueba_Angular.git
+ git push -u origin master

@@ -1,0 +1,32 @@
+cd ir a ruta
+npm create-react-app react-mktpleace
+cd react-mktpleace
+npm run start
+npm install -- save bootstrap
+npm install react-router-dom  //para activar el navbar
+
+//Descargar react cuando descargamos uno nuevo del git
+npm install  //Instalar las dependencias
+npm run start
+
+
+https://github.com/Israel2709/react-mktplace/archive/V1.zip
+https://github.com/Israel2709/react-mktplace/archive/V2.zip
+https://github.com/Israel2709/react-mktplace/releases/tag/v3.zip
+
+
+*****Generar compilado
+//para generar el compilado para publicar ( se genera el compilado en la sig ruta: C:\Users\monica.moreno\Desktop\react-mktplace-3\build)
+npm run build
+
+
+******Publicación *****
+cmd
+cd C:\Users\monica.moreno\Desktop\react-mktplace-deploy
+npm install -g firebase-tools
+firebase login
+firebase init
+// Se coloca el compilado en public
+firebase deploy
+
+
